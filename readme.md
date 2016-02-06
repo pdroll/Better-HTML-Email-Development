@@ -2,13 +2,13 @@
 
 _*As much_
 
-Developing HTML emails sucks. You can't use [some of the even the most basic CSS properties](https://www.campaignmonitor.com/css/). You have to rely tables for all layouts. Email clients that you have to support use [use HTML rendering engines](https://litmus.com/blog/a-guide-to-rendering-differences-in-microsoft-outlook-clients) that were [released over a decade ago](https://en.wikipedia.org/wiki/Internet_Explorer_7#Release_history). Things are [better than they used to be](https://litmus.com/help/email-clients/media-query-support/), but it will be a long time before we're able to use modern web development techniques for HTML emails.
+Developing HTML emails suck. You can't use [even some of the most basic CSS properties](https://www.campaignmonitor.com/css/). You have to rely tables for all layouts. Email clients that you have to support use  [HTML rendering engines](https://litmus.com/blog/a-guide-to-rendering-differences-in-microsoft-outlook-clients) that were [released over a decade ago](https://en.wikipedia.org/wiki/Internet_Explorer_7#Release_history). Things are [better than they used to be](https://litmus.com/help/email-clients/media-query-support/), but it will be a long time before we're able to use modern web development techniques for HTML emails.
 
 But just because you can't change these things, doesn't mean you have to develop like a caveman.
 
 This is an attempt to use modern web development tooling to make the task of developing HTML emails less painful.
 
-**[Gulp](http://gulpjs.com/)** is used as a task runner to do the heavy lifting, automatically while you develop:
+**[Gulp.js](http://gulpjs.com/)** is used to do the heavy lifting, automatically while you develop:
 
 1. **Assemble HTML**.
 	Uses [fabricator-assemble](https://github.com/fbrctr/fabricator-assemble) to bring elegent use of layouts to Handlebars templates.
