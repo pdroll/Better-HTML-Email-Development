@@ -2,7 +2,7 @@
 
 _*As much_
 
-Developing HTML emails suck. You can't use [even some of the most basic CSS properties](https://www.campaignmonitor.com/css/). You have to rely tables for all layouts. Email clients that you have to support use  [HTML rendering engines](https://litmus.com/blog/a-guide-to-rendering-differences-in-microsoft-outlook-clients) that were [released over a decade ago](https://en.wikipedia.org/wiki/Internet_Explorer_7#Release_history). Things are [better than they used to be](https://litmus.com/help/email-clients/media-query-support/), but it will be a long time before we're able to use modern web development techniques for HTML emails.
+Developing HTML emails sucks. You can't use [even some of the most basic CSS properties](https://www.campaignmonitor.com/css/). You have to rely tables for all layouts. Email clients that you have to support use  [HTML rendering engines](https://litmus.com/blog/a-guide-to-rendering-differences-in-microsoft-outlook-clients) that were [released over a decade ago](https://en.wikipedia.org/wiki/Internet_Explorer_7#Release_history). Things are [better than they used to be](https://litmus.com/help/email-clients/media-query-support/), but it will be a long time before we're able to use modern web development techniques for HTML emails.
 
 But just because you can't change these things, doesn't mean you have to develop like a caveman.
 
