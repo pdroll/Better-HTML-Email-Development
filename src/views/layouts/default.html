@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+	<!-- inject-style src="./dist/styles.css" -->
+	<table class="body">
+		<tr>
+			<td class="center" align="center" valign="top">
+				<center>
+					<table class="row header">
+						<tr>
+							<td class="center" align="center">
+								<center>
+									<table class="container">
+										<tr>
+											<td class="wrapper last">
+												<table class="twelve columns">
+													<tr>
+														<td class="six sub-columns">
+															<img src="http://placehold.it/200x50" alt="Company Logo">
+														</td>
+														<td class="six sub-columns last" align="right" style="text-align:right; vertical-align:middle;">
+															<span class="template-label">HEADER</span>
+														</td>
+														<td class="expander"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</center>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table class="container">
+						<tr>
+							<td>
+
+								<!-- content start -->
+								{% body %}
+								<!-- content end -->
+
+								<hr>
+								<table class="row footer">
+									<tr>
+										<td class="wrapper">
+
+											<table class="six columns">
+												<tr>
+													<td class="last right-text-pad">
+														<h5>Contact Info:</h5>
+														<p>Phone: 614.555.5555</p>
+														<p>Email: <a href="mailto:person@example.com">person@example.com</a></p>
+													</td>
+													<td class="expander"></td>
+												</tr>
+											</table>
+											<td class="wrapper last">
+												<h5>Connect With Us:</h5>
+												<table class="six columns">
+													<tr>
+														<td class="one sub-columns">
+															<a href="http://facebook.com">
+																<img src="{{ data.imagePath }}facebook.png" alt="Facebook" />
+															</a>
+														</td>
+														<td class="one sub-columns">
+															<a href="http://twitter.com">
+																<img src="{{ data.imagePath }}twitter.png" alt="Twitter" />
+															</a>
+														</td>
+														<td class="one sub-columns">
+															<a href="http://instagram.com">
+																<img src="{{ data.imagePath }}instagram.png" alt="Instagram" />
+															</a>
+														</td>
+														<td class="one sub-columns last">
+															<a href="http://youtube.com">
+																<img src="{{ data.imagePath }}youtube.png" alt="Youtube" />
+															</a>
+														</td>
+
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+
+									<table class="row">
+										<tr>
+											<td class="wrapper last">
+
+												<table class="twelve columns">
+													<tr>
+														<td align="center">
+															<center>
+																<p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
+															</center>
+														</td>
+														<td class="expander"></td>
+													</tr>
+												</table>
+
+											</td>
+										</tr>
+									</table>
+									<!-- container end below -->
+								</td>
+							</tr>
+						</table>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
