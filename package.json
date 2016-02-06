@@ -1,14 +1,13 @@
 {
-  "name": "emails",
+  "name": "BetterHTMLEmailDevelopment",
   "version": "1.0.0",
-  "description": "dt email newsletter",
-  "main": "index.js",
+  "description": "Modern web development tools to make developing HTML Emails suck less.",
+  "author": "Pete Droll <droll.p@gmail.com> (https://github.com/pdroll/)",
+  "license": "WTFPL",
   "scripts": {
     "start": "npm install && gulp",
     "build": "npm install && gulp build"
   },
-  "author": "",
-  "license": "WTFPL",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "del": "^1.2.1",

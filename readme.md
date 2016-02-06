@@ -2,28 +2,28 @@
 
 _*As much_
 
-Developing HTML emails sucks. You can't use [some of the even the most basic CSS properties](https://www.campaignmonitor.com/css/). you have to rely tables for all layouts. Email clients that you have to support use [use HTML rendering engines](https://litmus.com/blog/a-guide-to-rendering-differences-in-microsoft-outlook-clients) that were [released over a decade ago](https://en.wikipedia.org/wiki/Internet_Explorer_7#Release_history). Things are [better than they used to be](https://litmus.com/help/email-clients/media-query-support/), but it will be a long time before we're able to use modern web development techniques for HTML emails.
+Developing HTML emails sucks. You can't use [some of the even the most basic CSS properties](https://www.campaignmonitor.com/css/). You have to rely tables for all layouts. Email clients that you have to support use [use HTML rendering engines](https://litmus.com/blog/a-guide-to-rendering-differences-in-microsoft-outlook-clients) that were [released over a decade ago](https://en.wikipedia.org/wiki/Internet_Explorer_7#Release_history). Things are [better than they used to be](https://litmus.com/help/email-clients/media-query-support/), but it will be a long time before we're able to use modern web development techniques for HTML emails.
 
 But just because you can't change these things, doesn't mean you have to develop like a caveman.
 
 This is an attempt to use modern web development tooling to make the task of developing HTML emails less painful.
 
-**[Gulp](http://gulpjs.com/)** is used as a task runner to do the heavy lifting for you, automatically while you develop:
+**[Gulp](http://gulpjs.com/)** is used as a task runner to do the heavy lifting, automatically while you develop:
 
-1. **Assemble HTML**
+1. **Assemble HTML**.
 	Uses [fabricator-assemble](https://github.com/fbrctr/fabricator-assemble) to bring elegent use of layouts to Handlebars templates.
 
 
-2. **Compile Sass**
+2. **Compile Sass**.
 	Never leave home without variables and `@import`'s again.
 
-3. **Inject CSS into `<style>` tag**
+3. **Inject CSS into `<style>` tag**.
 	This lets you use things like `:hover` states and media queries.
 
-4. **Inline all CSS properties**
+4. **Inline all CSS properties**.
 	It's dumb, but [you have to do it](https://www.campaignmonitor.com/blog/email-marketing/2013/11/introducing-our-new-standalone-css-inliner/). And now it's done for you.
 
-5. **Optimize Images**
+5. **Optimize Images**.
 	Uses [Imagemin](https://github.com/sindresorhus/gulp-imagemin) to seamlessly minify images.
 
 
